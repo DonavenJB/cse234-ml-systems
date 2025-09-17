@@ -1,0 +1,15 @@
+﻿# OS junk
+Thumbs.db
+Desktop.ini
+
+# venvs and caches
+.venv/
+env/
+!env/requirements.txt
+__pycache__/
+
+# VS Code workspace
+.vscode/
+!.vscode/settings.json
+
+# notebooks can be large/binary-ish; keep them, but you can filter later
